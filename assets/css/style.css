@@ -1,0 +1,55 @@
+body {
+    background-color: bisque;
+}
+
+#img-style {
+    cursor: pointer;
+   
+
+}
+
+#img-style img {
+    width: 100%;
+
+}
+
+.segundo img {
+    width: 100%;
+}
+
+.segundo input {
+    width: 95%;
+    max-width: 300px ;
+}
+
+.w-custom {
+    width: 80%;
+    
+}
+
+
+
+
+.w-20 {
+    width: 20%;
+}
+
+#segundo,
+#tercero {
+    display: none;
+}
+
+
+@media (min-width: 426px) {
+    .w-custom {
+        width: 60%;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .w-custom {
+        width: 40%;
+    }
+
+}
