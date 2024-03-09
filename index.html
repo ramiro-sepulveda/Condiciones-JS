@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="parrafo" onclick="
+        var parrafo = document.querySelector( '#parrafo' );
+        if(parrafo.style.border != '5px solid green' ) {
+            parrafo.style.border = '5px solid green'
+        } else {
+            parrafo.style.border = 'none'
+        }
+                ">HOLA</p>
+
+                <select name="aa" id="a">
+                    <option value="1">Uno</option>
+                    <option value="2">Dos</option>
+                    <option value="3">Tres</option>
+                    </select>
+                
+                    <button id="ee" onclick="
+                    var select = document.querySelector('#a').value;
+                    var parrafo = document.querySelector('#parrafo');
+                    parrafo.innerHTML = select;
+                               ">ingresar</button>
+</body>
+
+</html>
